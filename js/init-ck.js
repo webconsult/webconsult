@@ -1,0 +1,1 @@
+(function(){var t=$(".paper-background");$(".paper-background.container:before").css("height",t.height);var n=["W3C","webkit_new","webkit_old","moz","opera","IE"];for(var r in n)t.css(createGradients(t,n[r]))})();

@@ -1,0 +1,1277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"time",
+				"timeInterval"
+			],
+			[
+				"devi",
+				"devicesPerMilli"
+			],
+			[
+				"mill",
+				"milliPerDevice"
+			],
+			[
+				"show",
+				"showLineNumbers"
+			],
+			[
+				"succu",
+				"successfully"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"notifi",
+				"notificationBar"
+			],
+			[
+				"is",
+				"isFunction"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"auth",
+				"authUser"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"overfl",
+				"overflow-y"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"ove",
+				"overflow-y"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"def-a",
+				"def-trans-time"
+			],
+			[
+				"coll",
+				"collaborators-emails"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"login-",
+				"login-row"
+			],
+			[
+				"ca",
+				"call"
+			],
+			[
+				"ad",
+				"adjustFooterWith"
+			],
+			[
+				"narrow",
+				"narrowFooter"
+			],
+			[
+				"narro",
+				"narrowFooter"
+			],
+			[
+				"re",
+				"resize"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"nav",
+				"navy-blue"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"col-",
+				"col-md-8"
+			],
+			[
+				"tet",
+				"textarea	Tag"
+			],
+			[
+				"js",
+				"js	javascript-include"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"decim",
+				"decimal1"
+			],
+			[
+				"de",
+				"decimal1"
+			],
+			[
+				"d",
+				"day"
+			],
+			[
+				"middl",
+				"middleInitial"
+			],
+			[
+				"fir",
+				"firstLetter"
+			],
+			[
+				"op",
+				"openPosition"
+			],
+			[
+				"jP",
+				"jpanelmenu"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"yea",
+				"yearPrice"
+			],
+			[
+				"savin",
+				"savingsMonth"
+			],
+			[
+				"month",
+				"monthPrice"
+			],
+			[
+				"mon",
+				"monthPrice"
+			],
+			[
+				"wee",
+				"weekPrice"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"selected_items":
+		[
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"filed",
+				"FileDiffs: Menu"
+			],
+			[
+				"dif",
+				"FileDiffs: Menu"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"link to",
+				"Snippet: link_to (action)"
+			],
+			[
+				"link",
+				"Snippet: link_to (path)"
+			],
+			[
+				"snippet link",
+				"Snippet: link_to (action)"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: for loop in rhtml"
+			],
+			[
+				"snippet",
+				"Snippet: end (ERB)"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"Snippet",
+				"Snippet: Function"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Checkout"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"pref",
+				"Autoprefix CSS"
+			],
+			[
+				"prefi",
+				"Autoprefix CSS"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"for",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"forma",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"traili",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"show",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"sho",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"run",
+				"Run JavaScript in the browser"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"prefere",
+				"Preferences: Browse Packages"
+			],
+			[
+				"preferen",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 568.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"cd ~/sites",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zaki/sites/webconsult/js/paper.js",
+		"/Users/zaki/sites/webconsult/js/init.js",
+		"/Users/zaki/sites/webconsult/index.html",
+		"/Users/zaki/sites/webconsult/css/base.css",
+		"/Users/zaki/sites/webconsult/css/main.css",
+		"/Users/zaki/sites/odometer/js/init.js",
+		"/Users/zaki/sites/odometer/index.html",
+		"/Users/zaki/sites/odometer/js/odometer.js",
+		"/Users/zaki/sites/odometer/css/style.css",
+		"/Users/zaki/Library/Caches/Cleanup At Startup/Transmit/FE5A8A93-AE16-4F1F-B5A3-185BEB31B405/index.html",
+		"/Users/zaki/sites/odometer/js/iot.js",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zaki/sites/odometer/js/iot-counter.js",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/fonts.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/profile.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/color-scheme.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/widgets.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/init.js",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/editor.js",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/write.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Layouts/default.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/home.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Config/core.php",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/layout.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Controller/PagesController.php",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/style.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/ffw.js",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/privacy.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/states.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/read.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/auth.js",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/terms.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/contact.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/help.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/closed.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Layouts/ajax.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Controller/UsersController.php",
+		"/Applications/MAMP/Library/bin/httpd",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/.htaccess",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/.htaccess",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/init-ck.js",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/css/style.css",
+		"/Users/zaki/sites/fourpio/webroot/less/layout.less",
+		"/Users/zaki/sites/fourpio/webroot/less/states.less",
+		"/Users/zaki/sites/fourpio/webroot/js/auth.js",
+		"/Users/zaki/sites/fourpio/webroot/js/init.js",
+		"/Users/zaki/sites/fourpio/webroot/less/color-scheme.less",
+		"/Users/zaki/sites/fourpio/webroot/less/widgets.less",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/test.ctp",
+		"/Users/zaki/sites/fourpio/Controller/PagesController.php",
+		"/Users/zaki/sites/fourpio/View/Layouts/default.ctp",
+		"/Users/zaki/Git repositories/etherpad-lite/settings.json.template",
+		"/Users/zaki/sites/fourpio/View/Pages/home.ctp",
+		"/Users/zaki/Git repositories/fireworks/index.html",
+		"/Users/zaki/Desktop/fireworks/css/style.css",
+		"/Users/zaki/sites/webconsult/css/fonts.css",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/app/View/Layouts/default.ctp",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Config/database.php",
+		"/Users/zaki/Desktop/fireworks/js/init.js",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/app/webroot/js/init.js",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/db.php",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Config/Schema/schema.fourpio.sql",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Config/Schema/db_acl.sql",
+		"/private/etc/hosts",
+		"/Users/zaki/sites/fireworks/index.html",
+		"/Users/zaki/Sites/fireworks/private/cakephp-2.4.2/app/webroot/css/style.css",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/app/View/Pages/home.ctp",
+		"/Users/zaki/sites/fireworks/js/init.js",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Applications/MAMP/logs/apache_error.log",
+		"/Applications/MAMP/logs/mysql_error_log.err",
+		"/etc/hosts",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/app/webroot/Gruntfile.js",
+		"/Users/zaki/sites/fireworks/package.json",
+		"/Users/zaki/sites/fireworks/opensearch.xml",
+		"/Users/zaki/sites/fireworks/_config.yml",
+		"/Users/zaki/Desktop/fireworks/_config.yml",
+		"/Users/zaki/sites/fireworks/browserstack.json",
+		"/Users/zaki/sites/fireworks/bower.json",
+		"/Users/zaki/sites/fireworks/composer.json",
+		"/Users/zaki/sites/fireworks/CONTRIBUTING.md",
+		"/Users/zaki/sites/fireworks/Gruntfile.js",
+		"/Users/zaki/sites/fireworks/register.php",
+		"/Users/zaki/sites/fireworks/css/style.css",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/app/webroot/css/style.css",
+		"/Users/zaki/sites/fireworks/js/init-ck.js",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/lib/Cake/bootstrap.php",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/app/Config/database.php",
+		"/Users/zaki/sites/fireworks/private/cakephp-2.4.2/index.php",
+		"/Users/zaki/Git repositories/blog/app/views/posts/index.html.erb",
+		"/Users/zaki/.zshrc",
+		"/Users/zaki/.zsh-update",
+		"/Users/zaki/.zshenv",
+		"/Users/zaki/.zprofile",
+		"/Users/zaki/Dropbox/AppData/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/zaki/Git repositories/AJAX module/index.html",
+		"/Users/zaki/Git repositories/AJAX module/parser.php",
+		"/Users/zaki/Git repositories/AJAX module/ajax.js",
+		"/Users/zaki/Desktop/ajax.js",
+		"/Users/zaki/Sites/fireworks/less/layout.less",
+		"/Users/zaki/Sites/fireworks/less/fonts.less",
+		"/Users/zaki/Sites/fireworks/less/style.less",
+		"/Users/zaki/Sites/fireworks/less/color-scheme.less",
+		"/Users/zaki/Sites/fireworks/less/states.less",
+		"/Users/zaki/Sites/fireworks/js/init.js",
+		"/Users/zaki/Sites/fireworks/index.html",
+		"/Users/zaki/Sites/fireworks/less/widgets.less",
+		"/Users/zaki/Git repositories/blog/app/models/post.rb",
+		"/Users/zaki/Git repositories/blog/app/views/posts/new.html.erb",
+		"/Users/zaki/Git repositories/blog/app/views/posts/edit.html.erb",
+		"/Users/zaki/Git repositories/blog/app/controllers/posts_controller.rb",
+		"/Users/zaki/Git repositories/blog/log/development.log",
+		"/Users/zaki/Git repositories/blog/app/views/layouts/application.html.erb",
+		"/Users/zaki/Git repositories/blog/app/assets/javascripts/application.js",
+		"/Users/zaki/Git repositories/blog/Gemfile",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zaki/Git repositories/blog/config/routes.rb",
+		"/Users/zaki/Git repositories/blog/app/views/posts/show.html.erb",
+		"/Users/zaki/.rvm/gems/ruby-2.0.0-p247/gems/newrelic_rpm-3.6.8.164/newrelic_bak.yml",
+		"/Users/zaki/Git repositories/blog/config/newrelic.yml",
+		"/Users/zaki/Git repositories/blog/config/database.yml",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/ruby-expression.sublime-snippet",
+		"/Users/zaki/.zsh_history",
+		"/Users/zaki/.profile",
+		"/Users/zaki/sites/fireworks/less/states.less",
+		"/Users/zaki/sites/fireworks/less/layout.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"3200",
+			"timeInterval",
+			"5000",
+			"= ",
+			"var",
+			"nav",
+			"notifica",
+			"tname",
+			"team",
+			"focus",
+			"table",
+			"editor",
+			"embed",
+			"login su",
+			"logout",
+			"login suc",
+			"login succ",
+			"alert",
+			"user alrea",
+			"alert",
+			"exist",
+			"alert",
+			"register su",
+			"signup fail",
+			"exist",
+			"user alrea",
+			"user al",
+			"user alre",
+			"register",
+			"succes",
+			"head",
+			"shorTxt",
+			"login",
+			"showMa",
+			"landing",
+			"cache",
+			"cach",
+			"TODO:",
+			"cache",
+			"auth",
+			"cache",
+			"landing",
+			"/watch?v=X6KA8pUrRlQ",
+			"editor-pa",
+			"editor",
+			"editor-pa",
+			"filesMa",
+			"text",
+			"auth",
+			"logout",
+			"nav",
+			"skip",
+			"notifications-area",
+			".description",
+			"descr",
+			"descript",
+			"signup",
+			"motherf",
+			"form",
+			"home",
+			"content",
+			"slide",
+			"vertical-cen",
+			"height",
+			"logout",
+			"main",
+			"editor-pa",
+			"btn",
+			"zaki",
+			"’",
+			"‘",
+			"'",
+			"nav",
+			"kate",
+			"error",
+			"signup-bt",
+			"login-b",
+			"head",
+			"login-btn",
+			"Virtual",
+			"NameVir",
+			"namevi",
+			"bootstra",
+			"include ",
+			"bin/",
+			"terms",
+			"data-id",
+			"terms",
+			"width:@nav",
+			"width: @nav",
+			"width:50px",
+			"width: 50px",
+			"nav",
+			"aside",
+			"nav",
+			"aside",
+			"nav",
+			"footer",
+			"background-color",
+			"270deg",
+			"h2",
+			"start-bt",
+			"#start-btn",
+			"start us",
+			"start",
+			"house",
+			"icon_men",
+			"skip",
+			"show",
+			"notif",
+			"show-not",
+			"show",
+			"notifica",
+			"notificati",
+			"show",
+			"img",
+			"main",
+			"nav",
+			"aside",
+			"slide-t",
+			"start us",
+			"center-bl",
+			"col-sm-4",
+			"col-sm-3",
+			"autho",
+			"h4",
+			"landing",
+			"table-cel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"author",
+			"full-height",
+			"@def-trans",
+			"@def",
+			"",
+			"tab-pane col-md-4",
+			"tab-pane col-md-3",
+			"",
+			"#popular",
+			"../../assets/",
+			"",
+			"\"prize-container span4\"",
+			"img src=\"img/winternet.jpg\"",
+			"",
+			"js"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"project": "webconsult_new.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pap",
+				"js/paper.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"font",
+				"webroot/less/fonts.less"
+			],
+			[
+				"profil",
+				"View/Pages/profile.ctp"
+			],
+			[
+				"color",
+				"webroot/less/color-scheme.less"
+			],
+			[
+				"widg",
+				"webroot/less/widgets.less"
+			],
+			[
+				"writ",
+				"View/Pages/write.ctp"
+			],
+			[
+				"fonts",
+				"webroot/less/fonts.less"
+			],
+			[
+				"init",
+				"webroot/js/init.js"
+			],
+			[
+				"write",
+				"View/Pages/write.ctp"
+			],
+			[
+				"defaul",
+				"View/Layouts/default.ctp"
+			],
+			[
+				"default.c",
+				"View/Layouts/default.ctp"
+			],
+			[
+				"home.",
+				"View/Pages/home.ctp"
+			],
+			[
+				"editor.j",
+				"webroot/js/editor.js"
+			],
+			[
+				"core.",
+				"Config/core.php"
+			],
+			[
+				"la",
+				"webroot/less/layout.less"
+			],
+			[
+				"styl",
+				"webroot/less/style.less"
+			],
+			[
+				"ffw",
+				"webroot/js/ffw.js"
+			],
+			[
+				"colo",
+				"webroot/less/color-scheme.less"
+			],
+			[
+				"defau",
+				"View/Layouts/default.ctp"
+			],
+			[
+				"aut",
+				"webroot/js/auth.js"
+			],
+			[
+				"defa",
+				"View/Layouts/default.ctp"
+			],
+			[
+				"stat",
+				"webroot/less/states.less"
+			],
+			[
+				"style",
+				"webroot/less/style.less"
+			],
+			[
+				"layou",
+				"webroot/less/layout.less"
+			],
+			[
+				"ctp",
+				"View/Layouts/ajax.ctp"
+			],
+			[
+				"home",
+				"View/Pages/home.ctp"
+			],
+			[
+				"pri",
+				"View/Pages/privacy.ctp"
+			],
+			[
+				"read",
+				"View/Pages/read.ctp"
+			],
+			[
+				"state",
+				"webroot/less/states.less"
+			],
+			[
+				".htac",
+				"webroot/.htaccess"
+			],
+			[
+				".ht",
+				".htaccess"
+			],
+			[
+				"pages",
+				"Controller/PagesController.php"
+			],
+			[
+				"control",
+				"Controller/UsersController.php"
+			],
+			[
+				"layo",
+				"webroot/less/layout.less"
+			],
+			[
+				"ini",
+				"webroot/js/init.js"
+			],
+			[
+				"widge",
+				"webroot/less/widgets.less"
+			],
+			[
+				"contro",
+				"Controller/PagesController.php"
+			],
+			[
+				"style.le",
+				"webroot/less/style.less"
+			],
+			[
+				"sty",
+				"webroot/css/style.css"
+			],
+			[
+				"wid",
+				"webroot/less/widgets.less"
+			],
+			[
+				"layout",
+				"webroot/less/layout.less"
+			],
+			[
+				"default",
+				"View/Layouts/default.ctp"
+			],
+			[
+				"auth",
+				"webroot/js/auth.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"post",
+				"app/models/post.rb"
+			],
+			[
+				"aja",
+				"ajax.js"
+			],
+			[
+				"lay",
+				"less/layout.less"
+			],
+			[
+				"edit",
+				"app/views/posts/edit.html.erb"
+			],
+			[
+				"new",
+				"app/views/posts/new.html.erb"
+			],
+			[
+				"model",
+				"app/models/post.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"application.j",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"log",
+				"log/development.log"
+			],
+			[
+				"posts",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"browse",
+				"browserstack.json"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"show",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"index",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"po",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"index.",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"fon",
+				"less/fonts.less"
+			],
+			[
+				"states",
+				"less/states.less"
+			],
+			[
+				"stte",
+				"examples/starter-template/starter-template.css"
+			],
+			[
+				"car",
+				"carbrands.html"
+			],
+			[
+				"",
+				"carbrands.html"
+			],
+			[
+				"inti",
+				"js/init.js"
+			],
+			[
+				"edi",
+				"edit.html"
+			],
+			[
+				"in",
+				"js/init.js"
+			],
+			[
+				"fo",
+				"less/fonts.less"
+			],
+			[
+				"style.c",
+				"dist/css/style.css"
+			],
+			[
+				"color-",
+				"less/color-scheme.less"
+			],
+			[
+				"sched",
+				"static/bootstrap/schedule.html"
+			],
+			[
+				"star",
+				"static/bootstrap/start.html"
+			],
+			[
+				"minut",
+				"static/bootstrap/minutes.html"
+			],
+			[
+				"medi",
+				"static/bootstrap/assets/css/medium-editor-overrides.css"
+			],
+			[
+				"sche",
+				"static/bootstrap/schedule.html"
+			],
+			[
+				"start.ht",
+				"static/bootstrap/start.html"
+			],
+			[
+				"medium",
+				"static/bootstrap/assets/css/medium-editor-overrides.css"
+			],
+			[
+				"medium-ed",
+				"static/bootstrap/assets/css/medium-editor.css"
+			],
+			[
+				"wsgi",
+				"meetio/meetio/wsgi.py"
+			],
+			[
+				"settings",
+				"meetio/meetio/settings.py"
+			],
+			[
+				"settings.p",
+				"meetio/meetio/settings.py"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"st",
+				"dist/css/style.css"
+			],
+			[
+				"responsiv",
+				"less/responsive-utilities.less"
+			],
+			[
+				"jp",
+				"js/jquery.jpanelmenu.js"
+			],
+			[
+				"resp",
+				"responsive test.html"
+			],
+			[
+				"upgr",
+				"upgrade profile.html"
+			],
+			[
+				"sit",
+				"css/site.css"
+			],
+			[
+				"lead",
+				"css/leaderboard.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"four",
+				"~/Git repositories/fireworks/private/cakephp-2.4.2/app/fourpio.sublime-project"
+			],
+			[
+				"ethe",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			],
+			[
+				"",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			],
+			[
+				"eth",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			],
+			[
+				"etherp",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
