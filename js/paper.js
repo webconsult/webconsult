@@ -1,203 +1,164 @@
-/**
-*	Creates the height of the paper based on the content-element in 400px increments
-**/
-function createPaper(){
-	//TODO
-}
+(function (window) {
+	var paper;
+	paper = {
 
-/**
-*	Creates the appropriate amount of shadow elements based on the height of the paper
-**/
-function createShadows(){
-	//TODO
-}
-
-
-
-/**
-*	Takes an element as parameter, gets the height of the element, 
-*	divides it into an appropriate number of gradient segments and
-*	finally adds the generated gradient as a background.
-**/
-function createGradients(element, browser) {
-
-	var output;
-	var elementHeight = element.height();
-	var gradientMinHeight = 300;
-	var numberOfGradients = 1;
-
-	//Calculate number of gradient stops
-	if (elementHeight >= gradientMinHeight) {
-		numberOfGradients = Math.floor(elementHeight / gradientMinHeight);
-	}
-
-	var colorSequence = ["#ffffff","#f7f7f7",
-							"#e3e3e3","#f7f7f7",
-							"#ffffff","#f7f7f7",
-							"#e3e3e3","#f7f7f7"];
-
-	//Generate color-stop array
-	var colorStops = generateColorStops(numberOfGradients);
-
-	switch (browser) {
-		case 'W3C':
-			output = generateW3C();
-			break;
-		case 'moz':
-			output = generateMoz();
-			break;
-		case 'webkit_new':
-			output = generateWebkitNew();
-			break;
-		case 'webkit_old':
-			output = generateWebkitOld();
-			break;
-		case 'opera':
-			output = generateOpera();
-			break;
-		case 'IE':
-			output = generateIE();
-			break;
-		case 'IE7':
-			output = generateIE7();
-			break;
-		default:
-			console.log("wrong browser prefix assigned");
-	}
-
-	return output;
-
-	function generateIE(){
-		// IE
-		var IE = "-ms-linear-gradient(top,";
-
-		//Generates the appropriate color-stops
-		for (var i=0;i<colorStops.length;i++){
-			IE += colorSequence[i%colorSequence.length] + " "+ colorStops[i] + "%";
-			if (i != colorStops.length -1){
-				IE += ", ";
+		options: {
+			targetElement: $('.paper-background'), 
+			numberOfGradients : 2, //default value, actual value will be calculated
+			gradientMinHeight: 400, //px
+			textureUrl: "url('img/paper_background.jpg')",
+			opacity: 0.75,
+			colorStops: {
+				bright: "255, 255, 255",
+				medium: "247, 247, 247",
+				dark: "227, 227, 227"
+			},
+			browserPrefixes: {
+				W3C: true,
+				moz: false,
+				webkit_new: false,
+				webkit_old: false,
+				opera: false,
+				IE: false,
+				IE7: false
 			}
-		}
-		IE += ")"
-		return {background: IE};
-	}
+		},
 
-	function generateIE7(){
-		// IE
-		var IE = "progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 )";
-		return {filter: IE};
-	}
+		hello: function(){
+			alert('hello');
+		},
 
-	function generateOpera(){
-		// Opera
-		var opera = "-o-linear-gradient(top,";
+		/*
+		 * Takes the colorstops and opacity defined above and joins it into proper rgba-format
+		 */
+		getColorStopsRgba: function() {
 
-		//Generates the appropriate color-stops
-		for (var i=0;i<colorStops.length;i++){
-			opera += colorSequence[i%colorSequence.length] + " "+ colorStops[i] + "%";
-			if (i != colorStops.length -1){
-				opera += ", ";
+			var ColorStopsRgba = {};
+
+			for (var key in this.options.colorStops){
+				ColorStopsRgba[key] = 'rgba(' + this.options.colorStops[key] + ', ' + this.options.opacity + ')';
 			}
-		}
-		opera += ")"
-		return {background: opera};
-	}
+			return ColorStopsRgba;
+		},
 
-	function generateWebkitOld(){
-		// Chrome,Safari4+
-		var webkit_old = "-webkit-gradient(linear, left top, left bottom, ";
+		/*
+		 * Calculates number of gradient stops
+		 */
+		getNumberOfGradients: function() {
 
-		//Generates the appropriate color-stops
-		for (var i=0;i<colorStops.length;i++){
-			webkit_old += "color-stop(" + colorStops[i] + "%, " + colorSequence[i] + ")";
-			if (i != colorStops.length -1){
-				webkit_old += ", ";
+			if (this.options.targetElement.height() >= this.options.gradientMinHeight) {
+				//Makes sure that gradients are not shorter than gradientMinHeight
+				var num = Math.floor(this.options.targetElement.height() / this.options.gradientMinHeight);
+
+				return num;
+			} else {
+				//TODO: there is a bug so it always ends up in this clause
+				debugger;
+				console.log('content is smaller than minimum gradient height');
 			}
-		}
-		webkit_old += ")"
-		return {background: webkit_old};
+		},
+
+		/*
+		 * Injects correct number of shadow elements into the DOM
+		 */
+		 injectShadows: function() {
+
+		 	//Injects the appropriate number of shadow elements
+		 	for (var i=0; i < this.options.numberOfGradients; i++) {
+		 		$('#shadow-container').append('<div class="round-shadow"></div>');
+		 	}
+
+		 	this.setShadowContainerHeight();
+		 },
+
+		 /*
+		  * Sets the shadow container height to the height of the paper
+		  */
+		 setShadowContainerHeight: function() {
+		 	$('#shadow-container').css('height',this.options.targetElement.height()+'px');
+
+		 	var height = ((1 / this.options.numberOfGradients) * this.options.targetElement.height()) -20; // -20 is the total margin
+
+		 	height += 'px';
+		 	$('#shadow-container .round-shadow').css('height',height);
+		 },
+		 /*
+		  * Render gradients
+		  */
+		  renderGradients: function(){
+		  	var output = '';
+		  	var cStop = this.getColorStopsRgba();
+		  	var range = this.calcRange();
+
+		  	//webkit_new
+		  	
+		  	//BEFORE
+
+		  	output += '-webkit-gradient(linear, 0% 0%, 0% 100%,';
+		  	output += 'from(' + cStop['bright'] + '),\n';
+
+		  	var elementCount = 0;
+
+		  	for (var n=0; n < this.options.numberOfGradients; n++) {
+	  			output += '\tcolor-stop(' + range[1 + elementCount] + ', ' + cStop['medium'] + '),\n';
+			  	output += '\tcolor-stop(' + range[2 + elementCount] + ', ' + cStop['dark'] + '),\n';
+			  	output += '\tcolor-stop(' + range[3 + elementCount] + ', ' + cStop['medium'] + '),\n';
+			if (n+1 !== this.options.numberOfGradients) {
+			  	output += '\tcolor-stop(' + range[4 + elementCount] + ', ' + cStop['bright'] + '),\n';
+		  	} else {
+		  		output += 'to(' + cStop['bright'] + ')),';
+		  	}
+
+			  	elementCount += 4;
+		  	}
+		  	
+
+		  	//AFTER
+		  	
+ 			output += "url('img/paper_background.jpg')";
+
+		  	this.options.targetElement.css({'background': output});
+
+
+// background: 
+// 	-webkit-gradient(linear, 0% 0%, 0% 100%,
+// 		from(rgba(255, 255, 255, 0.7)),
+// 			color-stop(0.332333, rgba(247, 247, 247, 0.7)),
+// 			color-stop(0.333333, rgba(227, 227, 227, 0.7)),
+// 			color-stop(0.665667, rgba(247, 247, 247, 0.7)),
+// 			color-stop(0.666667, rgba(255, 255, 255, 0.7)),
+// 		to(rgba(247, 247, 247, 0.7))),
+// 	url('../img/paper_background.jpg');
+		  },
+
+		  /*
+		   * Calculates the range of the colorstops
+		   */
+		   calcRange: function(){
+		   	
+		   	// var initialRange = [0, 0.245, 0.25, 0.495, 0.50, 0.745, 0.75, 1];
+		   	var initialRange = [0, 0.48, 0.50, 0.98];
+		   	var outputRange = [];
+		   	var numberOfGradients = this.getNumberOfGradients();
+
+
+		   	for (var i=0; i < numberOfGradients; i++){
+		   		for (var n in initialRange) {
+		   			outputRange.push(( initialRange[n] / numberOfGradients ) + (i/numberOfGradients))
+		   		}
+		   	}
+		   	return outputRange;
+		   }
 	}
+	window.paper = paper;
+})(window);
 
-	function generateWebkitNew(){
-		// Chrome10+,Safari5.1+
-		var webkit_new = "-webkit-linear-gradient(top,";
+(function init() {
+	paper.options.numberOfGradients = paper.getNumberOfGradients();
+	paper.renderGradients();
+	paper.injectShadows();
 
-		for (var i=0;i<colorStops.length;i++){
-			webkit_new += colorSequence[i%colorSequence.length] + " "+ colorStops[i] + "%";
-			if (i != colorStops.length -1){
-				webkit_new += ",";
-			}
-		}
-		webkit_new += ")";
-		return {background: webkit_new};
-	}
-
-	function generateW3C() {
-
-		var W3C = "linear-gradient(to bottom,";
-
-		for (var i=0;i<colorStops.length;i++){
-			W3C += colorSequence[i%colorSequence.length] + " "+ colorStops[i] + "%";
-			if (i != colorStops.length -1){
-				W3C += ",";
-			}
-		}
-		W3C += ")"
-		return {background: W3C};
-
-	}
-	function generateMoz(){
-
-		//value element of key/value pair
-		var moz = "-moz-linear-gradient(top,";
-
-		for (var i=0;i<colorStops.length;i++){
-			moz += colorSequence[i%colorSequence.length] + " "+ colorStops[i] + "%";
-			if (i != colorStops.length -1){
-				moz += ",";
-			}
-		}
-		moz += ")";
-		//key: background
-		return {background: moz};
-	}
-}
-
-function generateColorStops(sections){
-	//Sets initial bounds for colorStop
-	var lowerBound = 0;
-	var upperBound = 100;
-	var colorStops = [];
-
-	//Figures out the range of the colorstop
-	var intervalRange = 100/sections;
-
-	//Iterates for as many times as 100 can be divided by the range...
-	for (var n=0;n<(100/intervalRange);n++){
-
-		//Stores the lowerBound as the first colorstop value
-		colorStops.push(lowerBound);
-
-		//Calculates the upper bound of the interval			
-		upperBound = lowerBound+intervalRange;
-
-		//Since the lower bound of the next interval will be the upperBoundof the current...
-		lowerBound = upperBound;
-
-		//Adjusts the upperbound so it do not collide with the lower bound of the next interval
-		if (upperBound != 100){
-			upperBound += -0.1;
-		}
-
-		//Stores the upper bound colorstop value
-		colorStops.push(upperBound);
-	}
-	return colorStops;
-}
-
-function matchElementDimensions(sourceElement, destinationElement) {
-	destinationElement.css('height',sourceElement.height);
-	destinationElement.css('width',sourceElement.width);
-}
-
-
+	paper.options.targetElement.resize(function(){
+		paper.setShadowContainerHeight();
+	})
+})()

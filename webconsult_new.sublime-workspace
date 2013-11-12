@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"elem",
+				"elementCount"
+			],
+			[
+				"paper",
+				"paper-background"
+			],
+			[
+				"ini",
+				"initialRange"
+			],
+			[
+				"in",
+				"initialRange"
+			],
+			[
+				"output",
+				"outputRange"
+			],
+			[
+				"ran",
+				"rangeList"
+			],
+			[
+				"get",
+				"getNumberOfGradients"
+			],
+			[
+				"calc",
+				"calcRange"
+			],
+			[
+				"ge",
+				"getNumberOfGradients"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"gra",
+				"gradientMinHeight"
+			],
+			[
+				"number",
+				"numberOfGradients"
+			],
+			[
+				"numb",
+				"numberOfGradients"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"color",
+				"colorStops"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"bacground-",
+				"background-color"
+			],
+			[
 				"time",
 				"timeInterval"
 			],
@@ -68,20 +152,12 @@
 				"text-align"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"font-",
 				"font-size"
 			],
 			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"background-",
-				"background-color"
 			],
 			[
 				"def-a",
@@ -134,10 +210,6 @@
 			[
 				"email",
 				"email"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"inline",
@@ -247,17 +319,9 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 387.0,
+		"height": 392.0,
 		"selected_items":
 		[
-			[
-				"prett",
-				"HTMLPrettify"
-			],
-			[
-				"align",
-				"Preferences: Alignment Key Bindings – Default"
-			],
 			[
 				"trail",
 				"Trailing Spaces: Delete Trailing Spaces"
@@ -265,6 +329,14 @@
 			[
 				"html",
 				"Set Syntax: HTML"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
 			],
 			[
 				"insta",
@@ -471,7 +543,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 568.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -493,6 +565,14 @@
 	},
 	"file_history":
 	[
+		"/Users/zaki/Git repositories/webconsult/js/init.js",
+		"/Users/zaki/Git repositories/webconsult/js/paper_bak.js",
+		"/Users/zaki/Git repositories/webconsult/index2.html",
+		"/Users/zaki/Git repositories/webconsult/index.html",
+		"/Users/zaki/Git repositories/webconsult/js/paper.js",
+		"/Users/zaki/Git repositories/webconsult/css/main.less",
+		"/Users/zaki/Git repositories/webconsult/css/main.css",
+		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/ffw.js",
 		"/Users/zaki/sites/webconsult/js/paper.js",
 		"/Users/zaki/sites/webconsult/js/init.js",
 		"/Users/zaki/sites/webconsult/index.html",
@@ -520,7 +600,6 @@
 		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/layout.less",
 		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/Controller/PagesController.php",
 		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/style.less",
-		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/js/ffw.js",
 		"/Applications/MAMP/conf/apache/httpd.conf",
 		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/View/Pages/privacy.ctp",
 		"/Users/zaki/Git repositories/fireworks/private/cakephp-2.4.2/app/webroot/less/states.less",
@@ -613,14 +692,7 @@
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/zaki/Git repositories/blog/config/routes.rb",
 		"/Users/zaki/Git repositories/blog/app/views/posts/show.html.erb",
-		"/Users/zaki/.rvm/gems/ruby-2.0.0-p247/gems/newrelic_rpm-3.6.8.164/newrelic_bak.yml",
-		"/Users/zaki/Git repositories/blog/config/newrelic.yml",
-		"/Users/zaki/Git repositories/blog/config/database.yml",
-		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/ruby-expression.sublime-snippet",
-		"/Users/zaki/.zsh_history",
-		"/Users/zaki/.profile",
-		"/Users/zaki/sites/fireworks/less/states.less",
-		"/Users/zaki/sites/fireworks/less/layout.less"
+		"/Users/zaki/.rvm/gems/ruby-2.0.0-p247/gems/newrelic_rpm-3.6.8.164/newrelic_bak.yml"
 	],
 	"find":
 	{
@@ -639,6 +711,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"shado",
+			"100",
+			"400",
+			"margin",
+			"85",
+			"round",
+			"for",
+			"target",
+			"element",
+			"margin-top",
+			"top",
+			"init",
+			"paper",
+			"generateC",
+			"main",
+			"rgba(218,218,218,0.92)",
+			"0.3",
+			"0",
+			"#dadada",
+			"0.5",
+			"0",
+			"5",
+			"rgb",
+			"div",
+			"$",
 			"3200",
 			"timeInterval",
 			"5000",
@@ -741,32 +838,7 @@
 			"270deg",
 			"h2",
 			"start-bt",
-			"#start-btn",
-			"start us",
-			"start",
-			"house",
-			"icon_men",
-			"skip",
-			"show",
-			"notif",
-			"show-not",
-			"show",
-			"notifica",
-			"notificati",
-			"show",
-			"img",
-			"main",
-			"nav",
-			"aside",
-			"slide-t",
-			"start us",
-			"center-bl",
-			"col-sm-4",
-			"col-sm-3",
-			"autho",
-			"h4",
-			"landing",
-			"table-cel"
+			"#start-btn"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -774,6 +846,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"p",
 			"'",
 			"author",
 			"full-height",
@@ -803,6 +876,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -822,6 +900,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -832,6 +916,7 @@
 		"rows":
 		[
 			0.0,
+			0.686886786442,
 			1.0
 		]
 	},
@@ -852,12 +937,32 @@
 		"selected_items":
 		[
 			[
-				"pap",
-				"js/paper.js"
+				"init",
+				"js/init.js"
+			],
+			[
+				"main",
+				"css/main.less"
 			],
 			[
 				"inde",
 				"index.html"
+			],
+			[
+				"index",
+				"index2.html"
+			],
+			[
+				"paper",
+				"js/paper_bak.js"
+			],
+			[
+				"pap",
+				"js/paper.js"
+			],
+			[
+				"main.c",
+				"css/main.css"
 			],
 			[
 				"font",
@@ -882,10 +987,6 @@
 			[
 				"fonts",
 				"webroot/less/fonts.less"
-			],
-			[
-				"init",
-				"webroot/js/init.js"
 			],
 			[
 				"write",
@@ -1088,10 +1189,6 @@
 				"app/views/posts/show.html.erb"
 			],
 			[
-				"index",
-				"app/views/posts/index.html.erb"
-			],
-			[
 				"po",
 				"app/controllers/posts_controller.rb"
 			],
@@ -1268,7 +1365,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 174.0,
 	"status_bar_visible": true,
 	"template_settings":
