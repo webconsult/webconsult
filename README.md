@@ -1,7 +1,7 @@
 webconsu.lt
 ==========
 
-Source code for the webconsu.lt website.
+Source code for the http://webconsu.lt website.
 
 The site is really just a plain one-page design in HTML, CSS and Javascript, but there is one thing I'd like to draw attention to:
 
